@@ -1,0 +1,1 @@
+<h1><?php echo $title ; ?></h1><div id="grid_details" style="height:400px;"><h2>To change Arabic language settings download arabic language file</h2> <a href="<?php echo FRONT;?>language files/arabic_lang.zip">Download Here</a>  </div>

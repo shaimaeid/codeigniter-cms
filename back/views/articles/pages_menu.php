@@ -1,0 +1,71 @@
+    <!-- Secondary nav -->
+    <div class="secNav">
+        <div class="secWrapper">
+            <div class="secTop">
+                <div class="balance">
+                <div class="balInfo">Articles:<span><?php echo date('Y-m-d'); ?></span></div>
+                
+                </div>
+                
+            </div>
+            
+            <!-- Tabs container -->
+            <div id="tab-container" class="tab-container">
+                <ul class="iconsLine ic3 etabs">
+                    <li><a rel="tipsy" class="tipN" title="Home" href="#home" ><span class="icos-home"></span></a></li>
+                    <li><a rel="tipsy" class="tipN" title="function list" href="#list" ><span class="icos-list"></span></a></li>
+                    <li><a rel="tipsy" class="tipN" title="help tips" href="#help" title="help tips"><span class="icos-help"></span></a></li>
+                </ul>
+                
+                <div class="divider"><span></span></div>
+                
+                <div id="home">
+					<ul class="subNav">
+					    <li class="activeli"><a title="" href="<?php echo site_url("articles")?>" ><span class="icos-list2"></span>All Articles</a></li>
+						<?php echo $sidebar; ?>
+                    </ul>
+                    <div class="clear"></div>
+					<div class="divider"><span></span></div>
+                </div>
+                    
+                <div id="list">
+                    <div class="sidePad">
+					    <a  title="" href="<?php echo site_url("topics")?>#list" class="sideB bLightBlue">View All Topics</a>
+						<!--<a  title="" href="<?php //echo site_url("topics")?>#list" class="sideB bRed mt10">Add new Topic</a>-->
+						<a  title="" href="<?php echo site_url("articles")?>#list" class="sideB  bGreen mt10">view All Articles</a>
+                        <!--<a  title="" href="<?php //echo site_url("articles")?>#list" class="sideB bBlue mt10">Add new Article</a>-->
+						
+
+                    </div>
+                    
+                    <div class="divider"><span></span></div>
+				</div>
+				<div id="help">
+                  <div class="sidePad">
+					<h1>Managing Articles & Pages </h1>
+						
+						<p> <b>English Title</b> - This title is used in the English version of the website .</p>
+						
+						<p><b>Arabic Title</b> - This title is used in the Arabic version of the website .</p>
+						
+						
+						<p> <b>Published</b> - Published is used to determine whether the page is accessable or not .</p><br />
+                    </div>
+                    
+                    <div class="divider"><span></span></div>
+				</div>
+              
+           </div>
+
+            
+          
+        
+       </div> 
+       <div class="clear"></div>
+   </div>
+</div>
+<!-- Sidebar ends -->
+    
+
+<!-- Main content wrapper begins -->
+<div id="content">
